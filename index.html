@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servidores de Internet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    section {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+      max-width: 800px;
+    }
+    h2 {
+      color: #003366;
+    }
+    p {
+      margin: 8px 0;
+      text-align: justify;
+    }
+    img {
+      max-width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Servidores de Internet</h1>
+    
+  </header>
+
+  <section>
+    <h2>1. Servidor DNS</h2>
+    <p><strong>¿Qué es y para qué sirve?</strong><br>
+    
+    El servidor DNS (Domain Name System) es un sistema esencial de Internet que funciona como una especie de directorio telefónico. Su función principal es traducir los nombres de dominio que las personas usamos (como <em>www.google.com</em> o <em>www.youtube.com</em>) en direcciones IP, que son números únicos que identifican a cada dispositivo conectado a la red. De esta forma, los usuarios no necesitan memorizar largas cadenas numéricas, sino que pueden acceder fácilmente a los sitios web escribiendo un nombre sencillo.</p>
+    <p>Los DNS permiten que la navegación por Internet sea práctica, rápida y segura. Sin este sistema, tendríamos que ingresar manualmente la dirección IP de cada sitio web al que quisiéramos entrar.</p>
+    <p><strong>Ejemplo:</strong><br>
+    Cuando escribimos <em>www.google.com</em> en el navegador, el servidor DNS lo traduce a una dirección IP como <code>142.250.64.78</code>. Así, el navegador sabe exactamente a qué servidor debe conectarse para mostrarnos la página.</p>
+    <img src="fotos/DNS.jpg" alt="Servidor DNS">
+  </section>
+
+  <section>
+    <h2>2. Servidor Web</h2>
+    <p><strong>¿Qué es y qué función cumple?</strong><br>
+    Un servidor web es un programa o equipo especializado que almacena páginas web y las entrega a los usuarios cuando son solicitadas a través de un navegador (como Chrome, Firefox o Edge). Cada vez que visitamos una página, el navegador envía una petición al servidor web, y este responde enviando el contenido solicitado: textos, imágenes, videos, audios o archivos.</p>
+    <p>El servidor web es esencial para la existencia de Internet tal como lo conocemos, ya que permite que la información esté disponible en cualquier momento y lugar del mundo. Además, maneja protocolos como <strong>HTTP</strong> y <strong>HTTPS</strong> para garantizar la comunicación entre cliente y servidor.</p>
+    <p><strong>Ejemplo:</strong><br>
+    Cuando accedemos a sitios como <em>YouTube</em>, <em>Wikipedia</em> o <em>Facebook</em>, lo que hacemos realmente es conectarnos al servidor web de esas plataformas, el cual nos envía el contenido que vemos en nuestras pantallas.</p>
+     <img src="fotos/servidorweb.jpg" alt="Servidor Web">
+</section>
+
+  <section>
+    <h2>3. Servidor FTP</h2>
+    <p><strong>¿Para qué se usa?</strong><br>
+    El servidor FTP (File Transfer Protocol) es un tipo de servidor que se utiliza para transferir archivos de un lugar a otro a través de Internet. Su función principal es permitir que los usuarios puedan subir (enviar) o descargar (recibir) archivos de forma remota.</p>
+    <p>Es muy común en el desarrollo de páginas web, ya que los diseñadores y programadores lo utilizan para subir sus proyectos desde la computadora local hasta el servidor donde se publicará el sitio. También es útil en empresas que comparten documentos pesados con sus empleados o clientes.</p>
+    <p><strong>Ejemplo:</strong><br>
+    Un administrador de páginas web utiliza un servidor FTP para subir imágenes, documentos y el código de su página a Internet, de manera que esté disponible para los visitantes.</p>
+    <img src="fotos/FTP.jpg" alt="Servidor FTP">
+     </section>
+
+  <section>
+    <h2>4. Servidor DHCP</h2>
+    <p><strong>¿Qué hace con las direcciones IP?</strong><br>
+    El servidor DHCP (Dynamic Host Configuration Protocol) es el encargado de asignar de manera automática direcciones IP a los dispositivos que se conectan a una red. Gracias a él, no es necesario que el usuario configure manualmente una dirección IP en cada computadora, celular o tablet.</p>
+    <p>Esto hace que la gestión de redes sea más sencilla y rápida, ya que evita conflictos de direcciones IP duplicadas y asegura que cada dispositivo tenga una identidad única en la red.</p>
+    <p><strong>Ejemplo:</strong><br>
+    Cuando conectas tu celular o laptop al WiFi de tu casa, el router (que actúa como servidor DHCP) te asigna automáticamente una dirección IP como <code>192.168.1.10</code>, sin que tengas que hacer nada.</p>
+    <img src="fotos/dhcp.jpg" alt="Servidor DHCP">
+  </section>
+
+  <section>
+    <h2>5. Servidor de Correos</h2>
+    <p><strong>¿Qué es?</strong><br>
+    Un servidor de correos es un sistema encargado de gestionar el envío, recepción y almacenamiento de correos electrónicos. Funciona como una oficina postal digital, que recibe los mensajes de los usuarios y los entrega al destinatario correcto en cuestión de segundos.</p>
+    <p>Existen diferentes tipos de protocolos que permiten que los correos funcionen correctamente:</p>
+    <ul>
+      <li><strong>SMTP (Simple Mail Transfer Protocol):</strong> Se utiliza para enviar correos electrónicos desde el cliente (como Gmail o Outlook) hasta el servidor de destino.</li>
+      <li><strong>IMAP (Internet Message Access Protocol):</strong> Permite recibir correos y mantenerlos sincronizados en varios dispositivos al mismo tiempo. Es muy útil cuando accedemos al correo desde el celular, la computadora y la tablet.</li>
+      <li><strong>POP3 (Post Office Protocol):</strong> También se utiliza para recibir correos, pero a diferencia de IMAP, descarga los mensajes al dispositivo y los elimina del servidor, por lo que no permite la sincronización entre varios equipos.</li>
+    </ul>
+    <p><strong>Ejemplo:</strong><br>
+    Cuando envías un correo en Gmail, el servidor SMTP lo entrega al servidor de destino, y el receptor puede descargarlo mediante POP3 o leerlo desde varios dispositivos mediante IMAP.</p>
+    <img src="fotos/images.png" alt="Servidor de Correos">
+
+  </section>
+
+</body>
+</html>
